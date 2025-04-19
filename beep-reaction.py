@@ -17,7 +17,7 @@ if __name__ == "__main__":
     try:
         while True:
             # Generate a random delay between 5 and 15 seconds (you can adjust the upper limit)
-            delay = random.uniform(5, 15)
+            delay = random.uniform(3, 7)
             print(f"Waiting for {delay:.2f} seconds...")
             time.sleep(delay)
             print("Playing sound...")
