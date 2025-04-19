@@ -12,7 +12,7 @@ def play_sound(sound_file):
     pygame.mixer.quit()
 
 if __name__ == "__main__":
-    sound_file = "beepSwim.mp4"  # Replace with the path to your sound file
+    sound_file = "beepSwim.wav"  # Replace with the path to your sound file
 
     try:
         while True:
